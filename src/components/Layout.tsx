@@ -26,7 +26,7 @@ function classNames(...classes: any[]) {
 
 const Layout: FC<LayoutProps> = ({ children }) => {
   const setOpenCart = useCartStore((state) => state.setOpen);
-  const [openAuth, setOpenAuth] = useState(false);
+  const setOpenAuth = useAuthStore((state) => state.setOpen);
   const user = useAuthStore((state) => state.user);
   const logout = useAuthStore((state) => state.logout);
   const cart = useCartStore((state) => state.cart);
@@ -34,7 +34,9 @@ const Layout: FC<LayoutProps> = ({ children }) => {
 
   useEffect(() => {
     getCart(user?.id || null);
-  }, [user, getCart]);
+
+    setOpenAuth(false);
+  }, [user, getCart, setOpenAuth]);
 
   return (
     <>
@@ -204,7 +206,7 @@ const Layout: FC<LayoutProps> = ({ children }) => {
       </main>
 
       <Cart />
-      <Auth open={openAuth} setOpen={setOpenAuth} />
+      <Auth />
     </>
   );
 };
