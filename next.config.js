@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["localhost", "lavax-backend.rezuankassim.com"],
+    domains: ["localhost", "lavax-rezuankassim.com"],
   },
 };
 
