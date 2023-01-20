@@ -31,7 +31,7 @@
     <a href="https://github.com/rezuankassim/lavax-frontend#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://lavax-frontend.rezuankassim.com">View Demo</a>
+    <a target="_blank" href="https://lavax-frontend.rezuankassim.com">View Demo</a>
     ·
     <a href="https://github.com/rezuankassim/lavax-frontend/issues">Report Bug</a>
     ·
