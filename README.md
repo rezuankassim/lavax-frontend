@@ -96,13 +96,17 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/rezuankassim/lavax-frontend.git
    ```
+
 2. Install NPM packages
+
    ```sh
    yarn install
    ```
+
 3. Create `.env` file with neccessary variables
 
    ```sh
@@ -118,6 +122,12 @@ This is an example of how to list things you need to use the software and how to
    STRIPE_WEBHOOK_SECRET=<YOUR STRIPE WEBHOOK SECRET>
    ```
 
+4. Run the project
+
+   ```sh
+   yarn dev
+   ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
@@ -127,8 +137,6 @@ This is an example of how to list things you need to use the software and how to
 Will be demonstrate the usage of the projects during the showcase for the technical assessment with Lavax.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
 
 <!-- CONTACT -->
 
@@ -169,7 +177,3 @@ Your Name - [@KassimRezuan](https://twitter.com/KassimRezuan) - rezuankassim@hot
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
-
-```
-
-```
